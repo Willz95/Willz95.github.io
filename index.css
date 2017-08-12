@@ -26,7 +26,12 @@ body {
 #navbar {
   position: fixed;
   width: 90vw;
-  align-content: center;
+  text-align: center;
+  text-emphasis-style: dot;
+  font-style: normal;
+  font-weight: bold;
+  text-emphasis-position: above;
+  position: fixed;
 }
 
 #navbar .nav-links {
