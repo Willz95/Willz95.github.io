@@ -1,0 +1,53 @@
+h1 {
+  color: White
+  ;
+}
+
+body {
+  background: cornflowerblue;
+  font-size: 20px;
+}
+
+#about p{color: Black;}
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+
+.small-container {
+  min-height: 50vh;
+  padding-top: 30vh;
+  text-align: center;
+  list-style-position: inside;
+}
+
+
+
+#navbar {
+  position: fixed;
+  width: 90vw;
+  align-content: center;
+}
+
+#navbar .nav-links {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+
+  margin: 10px;
+}
+
+#navbar .nav-links:hover {
+  color: #ca271b;
+}
+
+#contact input, textarea {
+  padding: 20px;
+  margin: 15px auto;
+  font-size: 18px;
+  border: none;
+}
+
+#contact input[type="submit"] {
+  background-color: #FFC169;
+}
